@@ -1,0 +1,45 @@
+@import '../../styles/colors.sass'
+
+.swiper 
+  width: 100%
+
+
+
+.swiper-slide 
+  width: 100%
+  height: 100%
+
+
+.swiper-slide img 
+  width: 100%
+  border-radius: 25.258px
+  border: 1.075px solid #FFF
+  box-shadow: 0px 9px 9px 0px rgba(19, 101, 226, 0.20)
+
+
+.swiper-pagination-bullet
+    content: url(../../assets/swiper-bullet.svg)
+
+.swiper-pagination-bullet-active
+    content: url(../../assets/swiper-bullet-active.svg) !important
+    background-color: #FFF !important
+    width: 32px !important
+    height: 32px !important
+
+.swiper-button-container
+    margin-top: 20px
+    gap: 20px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.next, .prev
+    width: 32px
+    height: 32px
+    background-color: #FFF
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    transition: background-color 0.3s
