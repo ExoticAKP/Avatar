@@ -41,7 +41,7 @@ const SwiperComponent: React.FC = () => {
             type: "bullets",
             renderBullet: function (index, className) {
               return (
-                '<span class="' +
+                `<span key=${index} class="` +
                 className +
                 '"><img class="pagination-bullet"/></span>'
               );
